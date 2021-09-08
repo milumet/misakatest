@@ -18,7 +18,7 @@ function send_post($url, $post_data) {
   return $result;  
 }  
 if(get_headers($url))   {
-$post_data = array('url'=>"https://mabbs.github.io/jump.html?url=".$url );
+$post_data = array('url'=>"https://milumet.github.io/misaka.github.io/jump.html?url=".$url );
 $talkContent = send_post('https://git.io/create', $post_data);
 header('text/html; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
